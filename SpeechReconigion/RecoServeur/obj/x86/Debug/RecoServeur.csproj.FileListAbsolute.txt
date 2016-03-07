@@ -1,0 +1,5 @@
+C:\Users\PCOFME\Desktop\RecoCSharp\RecoServeur\bin\Debug\RecoServeur.exe
+C:\Users\PCOFME\Desktop\RecoCSharp\RecoServeur\bin\Debug\RecoServeur.pdb
+C:\Users\PCOFME\Desktop\RecoCSharp\RecoServeur\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\PCOFME\Desktop\RecoCSharp\RecoServeur\obj\x86\Debug\RecoServeur.exe
+C:\Users\PCOFME\Desktop\RecoCSharp\RecoServeur\obj\x86\Debug\RecoServeur.pdb

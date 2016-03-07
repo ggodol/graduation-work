@@ -1,0 +1,17 @@
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\bin\x64\Release\RecoServeur.exe
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\bin\x64\Release\RecoServeur.pdb
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\obj\x64\Release\ResolveAssemblyReference.cache
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\obj\x64\Release\RecoServeur.exe
+C:\Users\PCOFME\Desktop\Unity Tempo\RecoCSharp\RecoServeur\obj\x64\Release\RecoServeur.pdb
+E:\졸작준비\RecoServeur\bin\x64\Release\RecoServeur.exe
+E:\졸작준비\RecoServeur\bin\x64\Release\RecoServeur.pdb
+E:\졸작준비\RecoServeur\obj\x64\Release\RecoServeur.csprojResolveAssemblyReference.cache
+E:\졸작준비\RecoServeur\obj\x64\Release\RecoServeur.exe
+E:\졸작준비\RecoServeur\obj\x64\Release\RecoServeur.pdb
+E:\졸작준비\RecoServeur\bin\x64\Release\Microsoft.Speech.dll
+E:\graduation work\RecoServeur\bin\x64\Release\RecoServeur.exe
+E:\graduation work\RecoServeur\bin\x64\Release\RecoServeur.pdb
+E:\graduation work\RecoServeur\bin\x64\Release\Microsoft.Speech.dll
+E:\graduation work\RecoServeur\obj\x64\Release\RecoServeur.csprojResolveAssemblyReference.cache
+E:\graduation work\RecoServeur\obj\x64\Release\RecoServeur.exe
+E:\graduation work\RecoServeur\obj\x64\Release\RecoServeur.pdb
