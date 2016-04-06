@@ -1,0 +1,43 @@
+Initialize engine version: 5.3.3f1 (910d71450a97)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x402)
+    Vendor:   Intel
+    VRAM:     1136 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\vision\Documents\graduation-work\Assets\Scene\map.unity_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.618413 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.793668 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 173.
+Total: 0.182771 ms (FindLiveObjects: 0.011523 ms CreateObjectMapping: 0.009922 ms MarkObjects: 0.151722 ms  DeleteObjects: 0.008962 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.647542 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 163.
+Total: 0.264714 ms (FindLiveObjects: 0.016644 ms CreateObjectMapping: 0.015364 ms MarkObjects: 0.219261 ms  DeleteObjects: 0.012483 ms)
+
+ MY IP : 192.168.0.8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1150 -> priority: 1 
