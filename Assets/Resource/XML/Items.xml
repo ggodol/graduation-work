@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MyTest>
+	<Field id="0" value="apple"/>
+	<Field id="1" value="banana"/>
+	<Field id="2" value="cherry"/>
+	<Field id="3" value="grapes"/>
+	<Field id="4" value="kiwi"/>
+	<Field id="5" value="lemon"/>
+	<Field id="6" value="orange"/>
+	<Field id="7" value="peach"/>
+	<Field id="8" value="pear"/>
+	<Field id="9" value="pineapple"/>
+	<Field id="10" value="strawberry"/>
+</MyTest>

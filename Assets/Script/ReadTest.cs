@@ -7,7 +7,7 @@ public class ReadTest : MonoBehaviour {
     void Start()
     {
         // 저장되어있는 XML 파일을 읽어온다.
-        List<Word> WordList = WordIO.Read(Application.dataPath + "/Output/Items.xml");
+        List<Word> WordList = WordIO.Read(Application.dataPath + "/Resource/XML/Items.xml");
 
         // 결과물 출력.
         for (int i = 0; i < WordList.Count; ++i)

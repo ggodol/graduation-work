@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
+using System.Linq;
+using System;
 
 public class MiniGameController : MonoBehaviour {
 
@@ -11,19 +14,27 @@ public class MiniGameController : MonoBehaviour {
     public Text TimeText;
     public Text scoreText;
     public Text gameOverText;
-    //public Text reStartText;
     
     private bool gameOver;
-    //private bool reStart;
+
+    private int answer;
+    private int example1;
+    private int example2;
+    private int answerCount;
+
+    List<Word> WordList;
 
     void Start () {
         gameOver = false;
-        //reStart = false;
         gameOverText.text = "";
-        //reStartText.text = "";
         score = 0;
+        answerCount = 0;
+
+        WordsToList();
         UpdateScore();
-	}
+        GiveQuestion();
+
+    }
 	
 	void Update () {
         timeRemaining -= Time.deltaTime;
@@ -63,5 +74,24 @@ public class MiniGameController : MonoBehaviour {
     {
         gameOverText.text = "Game Over";
         gameOver = true;
+    }
+
+    //문제를 제출하는 함수
+    void GiveQuestion()
+    {
+        List<Word> shuffled = WordList.OrderBy(arg => Guid.NewGuid()).Take(3).ToList();
+
+        for (int i = 0; i < shuffled.Count; ++i)
+        {
+            Word word = shuffled[i];
+            Debug.Log(string.Format("word[{0}] : ({1}, {2})",
+                i, word.id, word.value));
+        }
+    }
+
+    void WordsToList()
+    {
+        // 저장되어있는 XML 파일을 읽어와 리스트에 저장한다.
+        List<Word> WordList = WordIO.Read(Application.dataPath + "/Resource/XML/Items.xml");
     }
 }
