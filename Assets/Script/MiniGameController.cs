@@ -10,6 +10,7 @@ public class MiniGameController : MonoBehaviour {
     //한게임의 제한시간
     public float timeRemaining = 10;
     public int score;
+    public int clear_score = 100;
 
     public Text TimeText;
     public Text scoreText;
@@ -17,18 +18,12 @@ public class MiniGameController : MonoBehaviour {
     
     private bool gameOver;
 
-    private int answer;
-    private int example1;
-    private int example2;
-    private int answerCount;
-
     List<Word> WordList;
 
     void Start () {
         gameOver = false;
         gameOverText.text = "";
         score = 0;
-        answerCount = 0;
 
         WordsToList();
         UpdateScore();
@@ -66,6 +61,7 @@ public class MiniGameController : MonoBehaviour {
         else
         {
             TimeText.text = "Time Over!";
+            IsClear();
         }
     }
 
@@ -98,9 +94,9 @@ public class MiniGameController : MonoBehaviour {
     //게임을 클리어했는지 게임오버인지 판별하는 함수
     void IsClear()
     {
-        if(score > 100)
+        if(score > clear_score)
         {
-
+            gameOverText.text = "Clear!";
         }
         else
         {
