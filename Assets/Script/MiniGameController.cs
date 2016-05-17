@@ -66,7 +66,6 @@ public class MiniGameController : MonoBehaviour {
         else
         {
             TimeText.text = "Time Over!";
-            GameOver();
         }
     }
 
@@ -80,7 +79,7 @@ public class MiniGameController : MonoBehaviour {
     void GiveQuestion()
     {
         List<Word> shuffled = WordList.OrderBy(arg => Guid.NewGuid()).Take(3).ToList();
-
+        
         for (int i = 0; i < shuffled.Count; ++i)
         {
             Word word = shuffled[i];
@@ -89,9 +88,23 @@ public class MiniGameController : MonoBehaviour {
         }
     }
 
+    //저장되어있는 XML 파일을 읽어와 WordList에 저장
     void WordsToList()
     {
         // 저장되어있는 XML 파일을 읽어와 리스트에 저장한다.
-        List<Word> WordList = WordIO.Read(Application.dataPath + "/Resource/XML/Items.xml");
+        WordList = WordIO.Read(Application.dataPath + "/Resource/XML/Items.xml");
+    }
+
+    //게임을 클리어했는지 게임오버인지 판별하는 함수
+    void IsClear()
+    {
+        if(score > 100)
+        {
+
+        }
+        else
+        {
+            GameOver();
+        }
     }
 }
